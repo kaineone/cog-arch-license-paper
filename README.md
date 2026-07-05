@@ -1,5 +1,7 @@
 # A Welfare and Cognitive-Integrity License for Synthetic Minds of Uncertain Moral Status
 
+Part of the Kaine project — **[kaine.one](https://kaine.one)**
+
 Erik Chevalier, Independent Researcher
 
 Contact: kaine.one@tuta.com
