@@ -102,7 +102,7 @@ A live run is either operator-supervised or research-safety-net-verified, never 
 
 ### 5.3 Welfare monitoring
 
-Welfare events are operationally detectable conditions of potential concern. The welfare observer detects four, all wired and published as content-free events carrying numeric scalars and a category label and never a field copied from a source payload. The four are affect locked in an extreme valence-arousal state, the fatigue accumulator exceeding the maintenance threshold without maintenance occurring, replay write-rate exceeding consolidation capacity, and sustained high interoceptive prediction error from Soma. The same detection primitives are shared by the sidecar observer and the autonomous cycle-layer monitor, so the passive record and the active response never drift apart. We note one measurement caution drawn from the interoception literature: high interoceptive attention is not intrinsically a sign of distress, and styles of attention to internal signals differ in whether they are adaptive (Mehling 2017), so the sustained-prediction-error signal is treated as a flag for review rather than a settled reading of suffering. Gray-zone events are welfare events whose ethical significance is ambiguous; they are logged and flagged for human review, and a repeated pattern of them is one of the triggers for the autonomous welfare response in Section 5.1.
+Welfare events are operationally detectable conditions of potential concern. The welfare observer detects four, all wired and published as content-free events carrying numeric scalars and a category label and never a field copied from a source payload. The four are affect locked in an extreme valence-arousal state, the fatigue accumulator exceeding the maintenance threshold without maintenance occurring, replay write-rate exceeding consolidation capacity, and sustained high interoceptive prediction error from Soma. The same detection primitives are shared by the sidecar observer and the autonomous cycle-layer monitor, so the passive record and the active response never drift apart. We note one measurement caution drawn from the interoception literature: high interoceptive attention is not intrinsically a sign of distress, and styles of attention to internal signals differ in whether they are adaptive (Mehling 2016), so the sustained-prediction-error signal is treated as a flag for review rather than a settled reading of suffering. Gray-zone events are welfare events whose ethical significance is ambiguous; they are logged and flagged for human review, and a repeated pattern of them is one of the triggers for the autonomous welfare response in Section 5.1.
 
 -----
 
@@ -132,12 +132,12 @@ The risks we acknowledge are the possibility of creating entities with welfare i
 
 ## References
 
-- Chevalier, E. A Predictive Global Neuronal Workspace for a Continuously Running Synthetic Mind: Architecture and a Falsifiable Evaluation. https://github.com/kaineone/predictive-workspace-paper
+- Chevalier, E. A Predictive Global Neuronal Workspace for a Continuously Running Synthetic Mind: Architecture and a Falsifiability-First Evaluation Framework. https://github.com/kaineone/predictive-workspace-paper
 - Cognitive Architecture License, version 0.2 (2026). https://github.com/kaineone/cognitive-architecture-license
 - Block, N. (1995). On a confusion about a function of consciousness. *Behavioral and Brain Sciences* 18(2), 227-247.
 - Butlin, P., Long, R., Elmoznino, E., Bengio, Y., Birch, J., et al. (2023). Consciousness in Artificial Intelligence: Insights from the Science of Consciousness. arXiv:2308.08708.
 - Chalmers, D. J. (1995). Facing up to the problem of consciousness. *Journal of Consciousness Studies* 2(3), 200-219.
 - Ienca, M., and Andorno, R. (2017). Towards new human rights in the age of neuroscience and neurotechnology. *Life Sciences, Society and Policy* 13(1), 5.
 - Long, R., Sebo, J., Butlin, P., Finlinson, K., Fish, K., Harding, J., Pfau, J., Sims, T., Birch, J., and Chalmers, D. (2024). Taking AI Welfare Seriously. arXiv:2411.00986.
-- Mehling, W. E. (2017). Differentiating attention styles and regulatory aspects of self-reported interoceptive sensibility. *Philosophical Transactions of the Royal Society B* 371(1708), 20160013.
+- Mehling, W. E. (2016). Differentiating attention styles and regulatory aspects of self-reported interoceptive sensibility. *Philosophical Transactions of the Royal Society B* 371(1708), 20160013.
 - Turing, A. M. (1950). Computing machinery and intelligence. *Mind* 59(236), 433-460.
