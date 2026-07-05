@@ -2,6 +2,8 @@
 
 Part of the Kaine project — **[kaine.one](https://kaine.one)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21204002.svg)](https://doi.org/10.5281/zenodo.21204002)
+
 Erik Chevalier, Independent Researcher
 
 Contact: kaine.one@tuta.com
@@ -45,7 +47,7 @@ pandoc paper.md -o paper.pdf \
 
 ## Citation
 
-Until a Zenodo DOI or arXiv identifier exists, cite as:
+Archived on Zenodo, DOI [10.5281/zenodo.21204002](https://doi.org/10.5281/zenodo.21204002). Cite as:
 
 ```bibtex
 @misc{chevalier_welfare_license,
@@ -53,8 +55,9 @@ Until a Zenodo DOI or arXiv identifier exists, cite as:
   title        = {A Welfare and Cognitive-Integrity License for Synthetic Minds
                   of Uncertain Moral Status},
   year         = {2026},
-  note         = {Preprint},
-  howpublished = {\url{https://github.com/kaineone/cog-arch-license-paper}}
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21204002},
+  url          = {https://doi.org/10.5281/zenodo.21204002}
 }
 ```
 
