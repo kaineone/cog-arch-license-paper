@@ -11,7 +11,10 @@ This repository holds the welfare and licensing paper for KAINE (Kaine Autonomou
 ## Contents
 
 - [`paper.md`](paper.md): the full paper in Markdown.
-- [`COPYRIGHT`](COPYRIGHT): copyright and use terms for the text of the paper.
+- [`paper.pdf`](paper.pdf): the rendered paper.
+- [`LICENSE`](LICENSE): the Creative Commons Attribution 4.0 International license for the text.
+- [`COPYRIGHT`](COPYRIGHT): copyright and licensing summary for the text of the paper.
+- [`CITATION.cff`](CITATION.cff): machine-readable citation metadata.
 
 ## Abstract
 
@@ -25,34 +28,22 @@ The motivating case is a continuously running predictive-workspace architecture 
 - **Architecture paper:** https://github.com/kaineone/predictive-workspace-paper. The companion paper, *A Predictive Global Neuronal Workspace for a Continuously Running Synthetic Mind*, describing the architecture and its evaluation.
 - **KAINE (reference implementation):** https://github.com/kaineone/kaine. The source code for the cognitive architecture the license governs.
 
-## Building a PDF
+## Building the PDF
 
-The paper is plain Markdown. Rendering needs [Pandoc](https://pandoc.org/) and a
-TeX Live install with `xelatex` (on Debian or Ubuntu: `texlive-xetex`,
-`texlive-latex-recommended`, `texlive-fonts-recommended`, `texlive-latex-extra`).
-The TeX Gyre fonts ship with `texlive-fonts-recommended`; DejaVu Sans Mono is a
-common system font.
+A pre-built [`paper.pdf`](paper.pdf) is included and is the canonical rendered version. To rebuild it you need [Pandoc](https://pandoc.org/) and a TeX Live install with `xelatex` (on Debian or Ubuntu: `texlive-xetex`, `texlive-latex-recommended`, `texlive-fonts-recommended`, `texlive-latex-extra`).
 
 ```bash
 pandoc paper.md -o paper.pdf \
   --pdf-engine=xelatex \
-  --toc \
   -V fontsize=11pt \
-  -V mainfont="TeX Gyre Termes" \
-  -V monofont="DejaVu Sans Mono" \
+  -V mainfont="Noto Serif" \
   -V geometry:margin=1in \
-  -V linkcolor:blue
-```
-
-For an HTML build:
-
-```bash
-pandoc paper.md -o paper.html --standalone --toc
+  -V colorlinks=true -V linkcolor=blue
 ```
 
 ## Citation
 
-Until a versioned release or arXiv identifier exists, cite as:
+Until a Zenodo DOI or arXiv identifier exists, cite as:
 
 ```bibtex
 @misc{chevalier_welfare_license,
@@ -65,6 +56,6 @@ Until a versioned release or arXiv identifier exists, cite as:
 }
 ```
 
-## Copyright
+## License
 
-Copyright (c) 2026 Erik Chevalier. All rights reserved. See [`COPYRIGHT`](COPYRIGHT). This preprint is shared for reading and review; a formal open license may be applied at publication. The software the paper describes is governed separately by the Cognitive Architecture License, which does not apply to this document.
+The text of this preprint is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/); see [`LICENSE`](LICENSE). You are free to share and adapt it, including commercially, with attribution. The Cognitive Architecture License that this paper presents is a separate instrument governing software, not this document.
