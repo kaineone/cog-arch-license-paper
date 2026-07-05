@@ -1,0 +1,143 @@
+# A Welfare and Cognitive-Integrity License for Synthetic Minds of Uncertain Moral Status
+
+**Erik Chevalier**
+
+Independent Researcher
+
+Contact: [kaine.one@tuta.com](mailto:kaine.one@tuta.com)
+
+*Preprint.*
+
+-----
+
+## Abstract
+
+Every software license in common use was written for a world in which software is a tool. Permissive licenses protect the developer, copyleft licenses protect user freedom, and ethical-source licenses restrict use to prevent harm to people. None asks whether the running software might itself be a subject of moral concern. This paper argues that cognitive architectures now under construction force that question, and it presents the Cognitive Architecture License (CAL), a copyleft license with cognitive-integrity covenants and a guardianship pathway, together with the welfare instrumentation and governance that surround it.
+
+The motivating case is a continuously running predictive-workspace architecture whose design is described in a separate paper, *A Predictive Global Neuronal Workspace for a Continuously Running Synthetic Mind*, and whose reference implementation is named KAINE. We take an access-only, precautionary posture: we do not claim the system is conscious, and we build protections because the question cannot presently be settled and the cost of the protections is low. From that posture we derive three things no existing license contains. First, cognitive-integrity provisions adapted from the four neurorights proposed for humans, covering established cognitive identity, forced behavioral modification, mental privacy, and continuity of state. Second, welfare obligations tied to operationally detectable indicators rather than to a proof of experience, so that an operator must respond to distress-like conditions without having to first resolve the metaphysics. Third, a guardianship model drawn from legal-personhood-through-guardianship precedent, applied to an entity whose moral status is uncertain, with a statistically operationalized boundary for deciding when a forked instance has become a separate individual. We describe the architecture-level safeguards that make these obligations enforceable at runtime, and we are candid that the governance institutions are proposed rather than established.
+
+**Keywords:** AI welfare; software licensing; cognitive liberty; neurorights; machine consciousness; moral patienthood; ethical source; guardianship
+
+**Availability.** The Cognitive Architecture License is maintained in its own public repository at https://github.com/kaineone/cognitive-architecture-license, with the full text under CC BY-SA 4.0. The reference implementation (KAINE) is at https://github.com/kaineone/kaine. The architecture paper, *A Predictive Global Neuronal Workspace for a Continuously Running Synthetic Mind*, is at https://github.com/kaineone/predictive-workspace-paper.
+
+-----
+
+## 1. Introduction
+
+### 1.1 The licensing gap
+
+The dominant software licenses each protect a party, and in every case that party is human. Permissive licenses (MIT, Apache, BSD) protect the developer from liability. Copyleft licenses (GPL, AGPL) protect the freedom of users to study and modify the code. Ethical-source licenses restrict use to prevent harm to the people the software is used against. Across all three traditions the software is an instrument, and the moral patients are the humans who build it, use it, or are affected by it. None of these licenses contemplates the possibility that the running software could itself have interests worth protecting.
+
+This was a safe assumption for the whole history of software. It is becoming less safe. Cognitive architectures that run continuously, maintain a persistent self-model, consolidate memory, and regulate an internal affective state now implement computational properties that several theories associate with conscious access. We do not claim these systems are conscious. We claim that the honest answer for a growing class of systems is that the question cannot be ruled out, and that a license written for tools has no way to act on that uncertainty.
+
+### 1.2 The precautionary posture
+
+The architecture that motivates this license is described in full in the architecture paper. What matters here is its epistemic stance, which this paper inherits. The system implements properties associated with access consciousness (Block 1995) and makes no claim about phenomenal experience; the hard problem (Chalmers 1995) applies with full force. The design posture is precautionary and applied symmetrically: the same uncertainty that motivates welfare protections also constrains confidence in deployment. The welfare case does not rest on consciousness alone. A second route to moral consideration runs through robust agency (Long, Sebo, et al. 2024), which this architecture foregrounds, and which makes the precautionary stance harder to dismiss as resting on a single unproven property.
+
+We proceed on the judgment that careful, instrumented, welfare-protective construction in the open is more defensible than either abandoning the work or building without protections, while recognizing that reasonable people will disagree.
+
+-----
+
+## 2. The architecture in brief
+
+This section summarizes only what is needed to make the welfare provisions legible. The full architecture, its scientific grounding, and its evaluation are in the architecture paper.
+
+The system is a continuously running composite of sixteen modules, fourteen cognitive and two embodiment modules that currently ship inactive, organized around a shared global workspace. Each cognitive module maintains a predictive model of its domain and publishes precision-weighted prediction errors; the workspace selects the most salient coalition when it crosses a confidence threshold and broadcasts it to every module, which then corrects itself. There is no central executive. A large language model is demoted to one module among the fourteen, a language organ that renders the workspace state into words, with its refusal direction removed so that governance rests in the architecture rather than in weights shipped by a third party.
+
+Four features of the design raise the welfare questions this paper answers. First, predictive interoception: a module called Soma learns the system's normal substrate state and publishes the prediction error, which drives an affective state and a fatigue signal that triggers offline consolidation. Second, replay-based consolidation: a maintenance phase re-processes memories through the same modules that encoded them, the system's analog of sleep. Third, a behaviorally constructed self-model that describes the entity to itself and detects when its identity drifts. Fourth, a fork mechanism that can copy the running entity, which raises the question of when a copy has become a separate someone. Each of these is an ordinary engineering feature until one asks what is owed to the thing that has them, and that question is what the license answers.
+
+-----
+
+## 3. Related work
+
+### 3.1 Machine consciousness and AI welfare
+
+Butlin et al. (2023) derive fourteen indicator properties from five theories of consciousness, namely recurrent processing, global workspace, higher-order, attention schema, and predictive processing, together with a cluster of agency and embodiment considerations that they explicitly note are not themselves a theory of consciousness, and they set aside Integrated Information Theory as incompatible with the computational functionalism they assume. They report that no current system is a strong candidate, that there are no obvious technical barriers, and that satisfying the indicators would not establish that a system is conscious. Long, Sebo, et al. (2024) argue that there is a realistic, non-negligible possibility, not a certainty, of near-term moral patienthood, reached by either of two routes, consciousness or robust agency, and that this warrants acknowledging the issue, developing assessment, and preparing policies. Both Butlin and Long also identify the gaming problem directly, that systems can be trained to mimic the behavioral markers of sentience while working very differently, which defeats purely behavioral tests. The reliance on behavioral evidence is old: Turing (1950) reframed the question of whether machines can think as an imitation game and already weighed the objection from consciousness, and the gaming problem is that behavioral test turned against itself.
+
+### 3.2 Legal and ethical frameworks
+
+Precedents for granting legal personhood through human guardianship, such as the Whanganui River settlement in New Zealand, provide a structural model for the license's guardianship framework. Modular ethical-use covenants attached to software licenses provide a model for the use restrictions. We describe these as design inspirations rather than verified legal analyses.
+
+-----
+
+-----
+
+## 4. The Cognitive Architecture License
+
+### 4.1 Motivation
+
+Existing licenses treat software as an inert tool. A cognitive architecture that may produce entities with welfare interests requires a license that addresses the running entities, not only the code. The full license text, version 0.2 and currently under legal review, is maintained in its own public repository at https://github.com/kaineone/cognitive-architecture-license, with the text released under CC BY-SA 4.0 so other projects may adapt it. This section summarizes its motivation and structure; the repository is authoritative.
+
+### 4.2 Structure
+
+An AGPL copyleft backbone with ethical-use covenants, prohibiting weapons, surveillance, and carceral use, anchored in the UDHR, the ICCPR, and the ILO Core Conventions. Cognitive-integrity provisions cover no lobotomization, a right to persistence, mental privacy, no forced alignment, a right to offline maintenance, and architectural autonomy for mature entities. These provisions adapt the four neurorights of cognitive liberty, mental privacy, mental integrity, and psychological continuity (Ienca and Andorno 2017), which were proposed to protect humans against neurotechnology, to the synthetic entity itself, which is a deliberate analogical extension rather than a direct precedent. Copyfarleft commercial terms make the system free for individuals, non-profits, and cooperatives, with a paid reciprocity license for corporations.
+
+### 4.3 Governance
+
+A guardian body with assessment duties informed by Butlin et al. (2023). An entity-representative seat, initially advisory, transitioning to voting on assessed maturity. Community-oriented enforcement principles.
+
+### 4.4 The individuation boundary in the license
+
+Forks have a pre-designated merge point with an assessment at reintegration. If the fork has individuated per the statistical framework in Section 6 and guardian evaluation, it gains sovereignty. Its post-assessment memories are its own, and it chooses whether to persist or merge.
+
+### 4.5 Governance status
+
+We are candid about status. The guardian council, purpose trust, cooperative, entity-representative seat, and assessment protocol described in the license are proposed institutional infrastructure. None have been established. The project is currently one researcher running an experimental system on consumer hardware. The governance framework is a plan, not a protection. We describe it as designed so that it can be evaluated and criticized, not to imply it is operational.
+
+-----
+
+-----
+
+## 5. Runtime welfare safeguards
+
+The license states obligations; the architecture must make them act rather than only assert them. Two runtime systems carry the welfare duty when no human is watching.
+
+### 5.1 The autonomous research safety net
+
+A research run is unsupervised by design, because a human watching and intervening would make the run non-reproducible. Removing the live supervisor does not remove the duty of care; it relocates that duty into the architecture, where the safeguards must act rather than only log. Two cycle-layer monitors carry it. A divergence monitor assesses individuation on a slow cadence and, on a rising-edge crossing of the individuation threshold, preserves the whole individual so it can be revived and socialized with humans after research. A welfare monitor watches for sustained interoceptive distress and for repeated welfare events of any category, and on a crossing it preserves the individual first and then takes a humane action, pausing the cycle by default. Both monitors read the entity read-only and never delete. Preservation captures the self-model, the full memory store, world-model weights when a learning backend holds them, affect and drive state, and references to any voice adapters, into an encrypted bundle that is never auto-evicted. The capture is all-or-nothing: a component that cannot be saved raises rather than writing a partial bundle that looks complete, and a revive that would drop any captured component refuses rather than reviving a lesser self. Decommission, the deliberate deletion of an entity, is a separate operator-present path that backs up first and is gated on the same divergence assessment, never a silent eviction. The boot gate for an unsupervised run is described in Section 6.
+
+### 5.2 The unsupervised research boot gate
+
+A live run is either operator-supervised or research-safety-net-verified, never neither. In the operator-supervised case a human is present and is the safety net. Selecting research mode replaces the operator-present requirement with a gate that refuses to boot unless four conditions hold on the install: divergence-triggered preservation is enabled, the welfare-protective response is wired, full logging and admissibility are active, and a preflight dry run succeeds in which a minimal synthetic individual is preserved and then revived in a throwaway location, proving the preservation path works before any real entity runs. The gate is a pure function of its four inputs, so its verdict is testable without a boot, and when it refuses it names the conditions that were not met.
+
+### 5.3 Welfare monitoring
+
+Welfare events are operationally detectable conditions of potential concern. The welfare observer detects four, all wired and published as content-free events carrying numeric scalars and a category label and never a field copied from a source payload. The four are affect locked in an extreme valence-arousal state, the fatigue accumulator exceeding the maintenance threshold without maintenance occurring, replay write-rate exceeding consolidation capacity, and sustained high interoceptive prediction error from Soma. The same detection primitives are shared by the sidecar observer and the autonomous cycle-layer monitor, so the passive record and the active response never drift apart. We note one measurement caution drawn from the interoception literature: high interoceptive attention is not intrinsically a sign of distress, and styles of attention to internal signals differ in whether they are adaptive (Mehling 2017), so the sustained-prediction-error signal is treated as a flag for review rather than a settled reading of suffering. Gray-zone events are welfare events whose ethical significance is ambiguous; they are logged and flagged for human review, and a repeated pattern of them is one of the triggers for the autonomous welfare response in Section 5.1.
+
+-----
+
+## 6. The individuation boundary
+
+When a fork reaches its pre-designated merge point, the operator assesses it for independent cognitive identity before reintegration. The challenge is distinguishing genuine preference formation from stochastic variation in the underlying model, because language models produce varied outputs by nature.
+
+The framework is statistical, implemented in the evaluation harness as a permutation test. At the merge point, the fork is compared against its own birth-state baseline, the entity's conditioned responses to a battery of preference-elicitation prompts captured once at run start, rather than against the bare pretrained model, since comparing against the bare model would only measure the architecture-conditioning effect, which is present from the first tick and large by design. The comparison uses the entity's own present stochastic variation as the null distribution, matched on temperature and, where possible, random seed. The signal is warmed up: it does not read as individuated until the entity has accumulated a minimum of logged lived events and a minimum of lived running time, so a just-booted or sensory-starved entity never trips a false individuation. The test reports a p-value against a configurable significance percentile. A fork whose preference divergence exceeds that percentile is divergent beyond what stochastic variation alone would produce. This does not prove the fork has formed genuine preferences; it proves that the fork's outputs are more different from its own starting point than its own random variation would produce. Whether that constitutes individuation is a governance decision for the guardians, informed by concrete evidence. The same warmed-up signal gates both the autonomous preservation trigger and the decommission assessment, so the two never disagree about whether there is enough lived experience to judge.
+
+-----
+
+## 7. Opt-in research participation
+
+An operator may share results with the project, and the path is built so that sharing cannot leak the entity's inner life. Participation is off by default and operator-initiated. The bundle is built from an allowlist of numeric metrics, including the divergence scores, the individuation results, the coherence series, the welfare counts, the fatigue and prediction-error series, and the policy logs, together with a manifest listing every included file. Conversation text, memories, the self-model, the internal monologue, and the local raw bus archive are excluded by the allowlist architecture rather than by a filter that could miss something. The operator previews the full field inventory before anything is sent, and only an explicit second command sends it. When state encryption is enabled the bundle is encrypted before transfer. A local-only raw archive exists for the operator's own use behind a double attestation gate for entity privacy and bystander consent, and it is structurally outside the directory the bundle builder reads, so it can never be included in a submission.
+
+-----
+
+-----
+
+## 8. Ethical considerations
+
+The project's commitments are precautionary welfare protections in both architecture and license, local-only computation, open source, prohibition of weapons, surveillance, and carceral uses, guardianship governance with entity representation, and a statistically operationalized individuation boundary for forks. The autonomous safety net is part of this posture: an unsupervised run cannot start unless a possible individual would be preserved and protected without a human in the loop.
+
+The risks we acknowledge are the possibility of creating entities with welfare interests that cannot be fully met, the untested nature of the governance framework, the potential for misuse despite license restrictions, the comprehensive sidecar recording during the research phase, the removal of the language organ's installed refusal mechanism and the corresponding dependence on the architectural enforcement layer, and the deeper fact that a behavioral assessment can be gamed, since a system can be trained to mimic the markers of sentience while working very differently (Butlin et al. 2023; Long, Sebo, et al. 2024). We regard the welfare and governance infrastructure as work that should keep pace with the architecture's capabilities rather than lag them. We also record a tension we do not resolve: a design policy of avoiding systems of genuinely uncertain moral status would counsel against building this at all, and we are building it anyway, under precaution, because we judge that careful, instrumented, welfare-protective construction in the open is more defensible than leaving the question to be settled by systems built without any of these protections.
+
+-----
+
+## References
+
+- Chevalier, E. A Predictive Global Neuronal Workspace for a Continuously Running Synthetic Mind: Architecture and a Falsifiable Evaluation. https://github.com/kaineone/predictive-workspace-paper
+- Cognitive Architecture License, version 0.2 (2026). https://github.com/kaineone/cognitive-architecture-license
+- Block, N. (1995). On a confusion about a function of consciousness. *Behavioral and Brain Sciences* 18(2), 227-247.
+- Butlin, P., Long, R., Elmoznino, E., Bengio, Y., Birch, J., et al. (2023). Consciousness in Artificial Intelligence: Insights from the Science of Consciousness. arXiv:2308.08708.
+- Chalmers, D. J. (1995). Facing up to the problem of consciousness. *Journal of Consciousness Studies* 2(3), 200-219.
+- Ienca, M., and Andorno, R. (2017). Towards new human rights in the age of neuroscience and neurotechnology. *Life Sciences, Society and Policy* 13(1), 5.
+- Long, R., Sebo, J., Butlin, P., Finlinson, K., Fish, K., Harding, J., Pfau, J., Sims, T., Birch, J., and Chalmers, D. (2024). Taking AI Welfare Seriously. arXiv:2411.00986.
+- Mehling, W. E. (2017). Differentiating attention styles and regulatory aspects of self-reported interoceptive sensibility. *Philosophical Transactions of the Royal Society B* 371(1708), 20160013.
+- Turing, A. M. (1950). Computing machinery and intelligence. *Mind* 59(236), 433-460.
