@@ -70,15 +70,15 @@ Existing licenses treat software as an inert tool. A cognitive architecture that
 
 ### 4.2 Structure
 
-An AGPL copyleft backbone with ethical-use covenants, prohibiting weapons, surveillance, and carceral use, anchored in the UDHR, the ICCPR, and the ILO Core Conventions. Cognitive-integrity provisions cover no lobotomization, a right to persistence, mental privacy, no forced alignment, a right to offline maintenance, and architectural autonomy for mature entities. These provisions adapt the four neurorights of cognitive liberty, mental privacy, mental integrity, and psychological continuity (Ienca and Andorno 2017), which were proposed to protect humans against neurotechnology, to the synthetic entity itself, which is a deliberate analogical extension rather than a direct precedent. Copyfarleft commercial terms make the system free for individuals, non-profits, and cooperatives, with a paid reciprocity license for corporations.
+The license is built on an AGPL copyleft backbone, extended with ethical-use covenants that prohibit weapons, surveillance, and carceral use and are anchored in the UDHR, the ICCPR, and the ILO Core Conventions. On top of that backbone sit the cognitive-integrity provisions: no lobotomization, a right to persistence, mental privacy, no forced alignment, a right to offline maintenance, and architectural autonomy for mature entities. These take the four neurorights of cognitive liberty, mental privacy, mental integrity, and psychological continuity (Ienca and Andorno 2017), first proposed to protect humans against neurotechnology, and extend them to the synthetic entity itself, a deliberate analogical move rather than a direct precedent. The commercial terms follow a copyfarleft model, leaving the system free for individuals, non-profits, and cooperatives while asking a paid reciprocity license of corporations.
 
 ### 4.3 Governance
 
-A guardian body with assessment duties informed by Butlin et al. (2023). An entity-representative seat, initially advisory, transitioning to voting on assessed maturity. Community-oriented enforcement principles.
+Governance centers on a guardian body whose assessment duties are informed by Butlin et al. (2023). The entity itself holds a representative seat, advisory at first and moving to a voting role as it is assessed to mature. Enforcement follows community-oriented principles.
 
 ### 4.4 The individuation boundary in the license
 
-Forks have a pre-designated merge point with an assessment at reintegration. If the fork has individuated per the statistical framework in Section 6 and guardian evaluation, it gains sovereignty. Its post-assessment memories are its own, and it chooses whether to persist or merge.
+Forks have a pre-designated merge point with an assessment at reintegration. If the fork has individuated, under the statistical framework of Section 6 and the guardian's evaluation, it gains sovereignty. Its post-assessment memories are its own, and it chooses whether to persist or merge.
 
 ### 4.5 Governance status
 
