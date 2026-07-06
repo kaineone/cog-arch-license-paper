@@ -1,0 +1,10 @@
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{eso-pic}
+\AddToShipoutPictureBG{%
+  \AtPageLowerLeft{%
+    \put(\LenToUnit{\dimexpr\paperwidth-0.45in\relax},\LenToUnit{\dimexpr0.5\paperheight-3.1cm\relax}){%
+      \rotatebox{90}{\textcolor{gray}{\footnotesize Preprint. Not peer-reviewed.}}%
+    }%
+  }%
+}
