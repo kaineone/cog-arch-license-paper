@@ -112,8 +112,15 @@ One tension remains unresolved. A policy of avoiding systems of genuinely uncert
 
 -----
 
+## Acknowledgements
+
+The license's guardianship design draws on New Zealand's Te Awa Tupua (Whanganui River Claims Settlement) Act 2017, and its welfare provisions on Long, Sebo, Butlin et al. (2024) and on the precedent of Anthropic's model welfare research program (Anthropic 2025).
+
+-----
+
 ## References
 
+- Anthropic (2025). Exploring model welfare. https://www.anthropic.com/research/exploring-model-welfare
 - Apache Software Foundation (2004). Apache License, Version 2.0. https://www.apache.org/licenses/LICENSE-2.0
 - Block, N. (1995). On a confusion about a function of consciousness. *Behavioral and Brain Sciences* 18(2), 227-247.
 - Butlin, P., Long, R., Elmoznino, E., et al. (2023). Consciousness in Artificial Intelligence: Insights from the Science of Consciousness. arXiv:2308.08708.
